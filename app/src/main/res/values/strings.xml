@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Thirty days of fitness</string>
+    <string name="disclaimer">Assurez-vous de faire les exercices correctement pour éviter les blessures, et n\'oubliez pas de consulter un professionnel de la santé si vous avez des préoccupations médicales avant de commencer ce programme.</string>
+
+    <!-- Jour 1 -->
+    <string name="exercice1_title">Pompes</string>
+    <string name="exercice1_description">Effectuez 3 séries de 10 pompes.</string>
+
+    <!-- Jour 2 -->
+    <string name="exercice2_title">Squats</string>
+    <string name="exercice2_description">Effectuez 3 séries de 15 squats.</string>
+
+    <!-- Jour 3 -->
+    <string name="exercice3_title">Planche</string>
+    <string name="exercice3_description">Tenez une planche pendant 30 secondes. Répétez 3 fois.</string>
+
+    <!-- Jour 4 -->
+    <string name="exercice4_title">Fentes</string>
+    <string name="exercice4_description">Effectuez 3 séries de 12 fentes par jambe.</string>
+
+    <!-- Jour 5 -->
+    <string name="exercice5_title">Burpees</string>
+    <string name="exercice5_description">Effectuez 3 séries de 8 burpees.</string>
+
+    <!-- Jour 6 -->
+    <string name="exercice6_title">Abdos</string>
+    <string name="exercice6_description">Effectuez 3 séries de 15 crunchs.</string>
+
+    <!-- Jour 7 -->
+    <string name="exercice7_title">Repos</string>
+    <string name="exercice7_description"></string>
+
+    <!-- Jour 8 -->
+    <string name="exercice8_title">Pompes diamant</string>
+    <string name="exercice8_description">Effectuez 3 séries de 10 pompes diamant.</string>
+
+    <!-- Jour 9 -->
+    <string name="exercice9_title">Jumping Jacks</string>
+    <string name="exercice9_description">Effectuez 3 séries de 20 jumping jacks.</string>
+
+    <!-- Jour 10 -->
+    <string name="exercice10_title">Gainage latéral</string>
+    <string name="exercice10_description">Tenez une planche latérale pendant 20 secondes de chaque côté. Répétez 3 fois.</string>
+
+    <!-- Jour 11 -->
+    <string name="exercice11_title">Mountain Climbers</string>
+    <string name="exercice11_description">Effectuez 3 séries de 15 mountain climbers par jambe.</string>
+
+    <!-- Jour 12 -->
+    <string name="exercice12_title">Burpees</string>
+    <string name="exercice12_description">Effectuez 3 séries de 10 burpees.</string>
+
+    <!-- Jour 13 -->
+    <string name="exercice13_title">Abdos latéraux</string>
+    <string name="exercice13_description">Effectuez 3 séries de 12 abdos latéraux de chaque côté.</string>
+
+    <!-- Jour 14 -->
+    <string name="exercice14_title">Repos</string>
+    <string name="exercice14_description"></string>
+
+    <!-- Jour 15 -->
+    <string name="exercice15_title">Pompes en déclin</string>
+    <string name="exercice15_description">Effectuez 3 séries de 10 pompes en déclin (pieds surélevés).</string>
+
+    <!-- Jour 16 -->
+    <string name="exercice16_title">Squats sautés</string>
+    <string name="exercice16_description">Effectuez 3 séries de 15 squats sautés.</string>
+
+    <!-- Jour 17 -->
+    <string name="exercice17_title">Planche latérale</string>
+    <string name="exercice17_description">Tenez une planche latérale pendant 20 secondes de chaque côté. Répétez 3 fois.</string>
+
+    <!-- Jour 18 -->
+    <string name="exercice18_title">Fentes arrière</string>
+    <string name="exercice18_description">Effectuez 3 séries de 12 fentes arrière par jambe.</string>
+
+    <!-- Jour 19 -->
+    <string name="exercice19_title">Burpees avec sauts en étoile</string>
+    <string name="exercice19_description">Effectuez 3 séries de 8 burpees avec sauts en étoile.</string>
+
+    <!-- Jour 20 -->
+    <string name="exercice20_title">Russian Twists</string>
+    <string name="exercice20_description">Effectuez 3 séries de 15 Russian twists de chaque côté.</string>
+
+    <!-- Jour 21 -->
+    <string name="exercice21_title">Repos</string>
+    <string name="exercice21_description"></string>
+
+    <!-- Jour 22 -->
+    <string name="exercice22_title">Pompes à une main</string>
+    <string name="exercice22_description">Effectuez 3 séries de 5 pompes à une main de chaque côté.</string>
+
+    <!-- Jour 23 -->
+    <string name="exercice23_title">Burpees avec push-ups</string>
+    <string name="exercice23_description">Effectuez 3 séries de 10 burpees avec push-ups.</string>
+
+    <!-- Jour 24 -->
+    <string name="exercice24_title">Planche renversée</string>
+    <string name="exercice24_description">Tenez une planche renversée pendant 30 secondes. Répétez 3 fois.</string>
+
+    <!-- Jour 25 -->
+    <string name="exercice25_title">Squats pistol (une jambe)</string>
+    <string name="exercice25_description">Effectuez 3 séries de 8 squats pistol par jambe.</string>
+
+    <!-- Jour 26 -->
+    <string name="exercice26_title">Superman</string>
+    <string name="exercice26_description">Effectuez 3 séries de 12 supermans.</string>
+
+    <!-- Jour 27 -->
+    <string name="exercice27_title">Repos</string>
+    <string name="exercice27_description"></string>
+
+    <!-- Jour 28 -->
+    <string name="exercice28_title">Pompes clap</string>
+    <string name="exercice28_description">Effectuez 3 séries de 8 pompes clap.</string>
+
+    <!-- Jour 29 -->
+    <string name="exercice29_title">Planche sur mains</string>
+    <string name="exercice29_description">Tenez une planche sur mains pendant 30 secondes. Répétez 3 fois.</string>
+
+    <!-- Jour 30 -->
+    <string name="exercice30_title">Votre choix</string>
+    <string name="exercice30_description">Choisissez votre exercice préféré parmi les précédents et faites 3 séries.</string>
+
+</resources>
