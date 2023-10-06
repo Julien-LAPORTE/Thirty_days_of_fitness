@@ -20,7 +20,7 @@ object ExerciseList {
     }
     fun previousPair(currentPair: PairNumber): PairNumber{
         val pairs = PairNumber.values()
-        val index = (currentPair.ordinal - 1) % pairs.size
+        val index = (currentPair.ordinal - 1 + pairs.size) % pairs.size
         return pairs[index]
     }
 

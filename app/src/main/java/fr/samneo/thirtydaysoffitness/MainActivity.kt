@@ -33,10 +33,9 @@ fun App(modifier: Modifier = Modifier) {
     Scaffold(modifier, {
         AppTopBar()
     }) {
-        SwipeableViewWithTwoExerciseCardsInColumn(
-            pairNumber = ExerciseList.PairNumber.PAIR1,
-            Modifier.padding(it)
-        )
+        SwipeableContent(onSwipeLeft = { /*TODO*/ }, onSwipeRight = { /*TODO*/ }, Modifier.padding(it)) {
+            ViewWithTwoExerciseCardsInColumn(pairNumber = ExerciseList.PairNumber.PAIR1, Modifier.padding(it))
+        }
     }
 }
 
