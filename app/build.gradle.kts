@@ -24,8 +24,7 @@ android {
         release {
             isMinifyEnabled = false
             proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+                getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
             )
         }
     }
@@ -58,7 +57,6 @@ dependencies {
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
-
     //implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.material3:material3-android:1.2.0-alpha09")
     implementation("androidx.compose.foundation:foundation:1.6.0-alpha01") //En test probablement non necessaire
