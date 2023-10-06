@@ -177,19 +177,6 @@ fun ViewWithTwoExerciseCardsInColumn(
     }
 }
 
-@Composable
-fun SwipeableViewWithTwoExerciseCardsInColumn(
-    pairNumber: ExerciseList.PairNumber, modifier: Modifier = Modifier
-) {
-    var currentColumn by remember { mutableStateOf(pairNumber) }
-    SwipeableContent(onSwipeLeft = { currentColumn = ExerciseList.previousPair(currentColumn) },
-        onSwipeRight = { currentColumn = ExerciseList.nextPair(currentColumn) },
-        modifier
-    ) {
-        ViewWithTwoExerciseCardsInColumn(pairNumber = currentColumn)
-    }
-}
-
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun AppPreview() {
