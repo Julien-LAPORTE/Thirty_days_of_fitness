@@ -30,13 +30,11 @@ fun ExerciseCard(exercise: Exercise, modifier: Modifier = Modifier) {
             defaultElevation = 10.dp
         )
     ) {
-        AnimateContent{
             Text(
                 text = "Jour ${exercise.exerciseNumber}",
                 Modifier.padding(top = dimensionResource(id = R.dimen.padding_small)),
                 style = MaterialTheme.typography.displayLarge
             )
-        }
         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
 
             Text(
