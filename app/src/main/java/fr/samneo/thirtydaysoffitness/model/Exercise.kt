@@ -7,5 +7,5 @@ data class Exercise(
     val exerciseNumber: Int,
     @StringRes val title: Int,
     @DrawableRes val image: Int,
-    @StringRes val description: Int
+    @StringRes val description: Int? = null
 )
