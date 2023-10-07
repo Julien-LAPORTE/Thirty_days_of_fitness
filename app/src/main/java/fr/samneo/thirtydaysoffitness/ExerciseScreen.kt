@@ -19,7 +19,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import fr.samneo.thirtydaysoffitness.data.ExerciseList
+import fr.samneo.thirtydaysoffitness.data.Datasource
 import fr.samneo.thirtydaysoffitness.model.Exercise
 import fr.samneo.thirtydaysoffitness.ui.theme.AppTheme
 
@@ -69,9 +69,9 @@ fun ExerciseCard(exercise: Exercise, modifier: Modifier = Modifier) {
 
 @Composable
 fun ViewWithTwoExerciseCardsInColumn(
-    pairNumber: ExerciseList.PairNumber, modifier: Modifier = Modifier
+    pairNumber: Datasource.PairNumber, modifier: Modifier = Modifier
 ) {
-    val exercises: List<Exercise> = ExerciseList.collectTheExercisesInPairs(pairNumber)
+    val exercises: List<Exercise> = Datasource.collectTheExercisesInPairs(pairNumber)
 
     Column(
         modifier

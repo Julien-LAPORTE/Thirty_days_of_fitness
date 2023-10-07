@@ -28,7 +28,7 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import fr.samneo.thirtydaysoffitness.data.ExerciseList
+import fr.samneo.thirtydaysoffitness.data.Datasource
 import fr.samneo.thirtydaysoffitness.ui.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
@@ -45,14 +45,14 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun App(modifier: Modifier = Modifier) {
 
-    var columnNumber by remember { mutableStateOf(ExerciseList.PairNumber.PAIR1) }
+    var columnNumber by remember { mutableStateOf(Datasource.PairNumber.PAIR1) }
 
     Scaffold(modifier, {
         AppTopBar()
     }) {
         SwipeableContent(
-            onSwipeLeft = { columnNumber = ExerciseList.nextPair(columnNumber) },
-            onSwipeRight = { columnNumber = ExerciseList.previousPair(columnNumber) },
+            onSwipeLeft = { columnNumber = Datasource.nextPair(columnNumber) },
+            onSwipeRight = { columnNumber = Datasource.previousPair(columnNumber) },
         ) {
             if (it == PaddingValues(top = 64.0.dp)) {
                 ViewWithTwoExerciseCardsInColumn(

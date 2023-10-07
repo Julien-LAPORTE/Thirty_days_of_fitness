@@ -3,7 +3,7 @@ package fr.samneo.thirtydaysoffitness.data
 import fr.samneo.thirtydaysoffitness.R
 import fr.samneo.thirtydaysoffitness.model.Exercise
 
-object ExerciseList {
+object Datasource {
 
     enum class PairNumber {
         PAIR1,
